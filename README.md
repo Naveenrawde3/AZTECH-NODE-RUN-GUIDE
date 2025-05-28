@@ -159,33 +159,6 @@ aztec start --node --archiver --sequencer \
 ```
 
 
-## Use this Template for saving data:
-
-...
-
- ------ Save These Info/Data ------
-
-Aztec Sequencer Node ( XXXXX dc)
-
-• Ethereum sepolia rpc : 
-
-• Beacon_sepolia_RPC : 
-
-• PVT KEY : 
-
-• MM Public Address : 
-
-• IP ( cloud vps) : 
-
-• Block Number : 
-
-• Base64 encoded string : 
-
------- Save These Info/Data ------
-
-...
-
-
 # Detached and Attached From the Screen
 
 * For detached from screen session - `ctrl` , `a` + `d`
