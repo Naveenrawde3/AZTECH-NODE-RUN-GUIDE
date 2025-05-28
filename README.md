@@ -111,6 +111,8 @@ aztec-up alpha-testnet
 
 # Load your wallet with Sepolia Faucet 
 
+https://testnetbridge.com/sepolia
+
 https://sepolia-faucet.pk910.de/
 
 https://www.alchemy.com/faucets/ethereum-sepolia
@@ -130,37 +132,6 @@ sudo ufw allow 40400
 sudo ufw allow 8080
 ```
 
-# Get Seapolia and Beacon API Key's Free of Cost
-
-* Go to - https://tinyurl.com/y8v7tm2d
-
-* Manually Sign up with Email address- u will rcvd 100$ voucher- (Dont sign up with Google)
-
-* Select Ethereum Sepolia
-
-* Scroll Down and Select the Growth Plan for which RPC u need, (Sepolia or Beacon) 
-
-* Click on `Select Voucher`
-
-* Select `50$ Voucher`
-
-* Now Click on `Pay with Balance`
-
-* Here we go... U got your API key for free!
-
-* U can see your Api key on API section!
-
-
-* More Other Sites!
-
-https://drpc.org/dashboard
-
-https://developer.metamask.io/key/active-endpoints
-
-https://www.alchemy.com
-
-
-<div  align="center">
    
 #  Start Your Sequencer 
 
