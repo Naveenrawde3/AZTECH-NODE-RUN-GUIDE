@@ -168,15 +168,11 @@ aztec start --node --archiver --sequencer \
 ```
 screen -r aztec
 ```
-
-<div  align="center">
    
 # Get Apprentice Role In dc- 
 
-</div>
 
-
-📋 **Step 1: Get the latest proven block number**
+## Step 1: Get the latest proven block number**
 
 ```
 curl -s -X POST -H 'Content-Type: application/json' \
@@ -184,11 +180,7 @@ curl -s -X POST -H 'Content-Type: application/json' \
 http://localhost:8080 | jq -r ".result.proven.number"
 ```
 
-* Save this block number for the next steps
-
-* Example output: `12345`
-
-🔍 **Step 2: Generate your sync proof**
+## Step 2: Generate your sync proof**
 
 ```
 curl -s -X POST -H 'Content-Type: application/json' \
@@ -196,44 +188,13 @@ curl -s -X POST -H 'Content-Type: application/json' \
 http://localhost:8080 | jq -r ".result"
 ```
 
-* Replace both `BLOCK_NUMBER` with your: (check step1)
 
-* This will output a long base64-encoded string - (Copy it completely)
+## Step 3: Register with Discord**
 
+## join dc- https://discord.gg/aztec 
 
-✅ **Step 3: Register with Discord**
-
-
-* join dc- https://discord.gg/aztec 
-
-* Go to `#operators│start-here` Channel
-
-* Type `/operator start` 
-
-* Now it will promt u to enter `address` , `block number` , `proof`
-
-* Place your evm wallet address in `address` section
-
-* Place block-number From the `Step-1` 
-
-* Place sync Proof from `Step-2` 
-
-
-
-<div  align="center">
    
-# Register as a Validator 🔗⛓️
-
-</div>
-
-* Replace `Eth_Sepolia_Rpc` with your actual sepolia rpc url from Metamask developer.
-
-* Replace `your-private-key` with your evm wallet pvt key! Dont forget  to add `0x` at starting
-
-* Replace `your-validator-address` with your evm wallet address 
-
-* Replace `your-validator-address` with your evm wallet address
-
+# Register as a Validator 
 
 ```
 aztec add-l1-validator \
@@ -245,7 +206,5 @@ aztec add-l1-validator \
   --l1-chain-id 11155111
 ```
 
-
-
-👉 Join TG for more Updates: https://t.me/ntekearning2
+## Join TG for more Updates: https://t.me/ntekearning2
 
