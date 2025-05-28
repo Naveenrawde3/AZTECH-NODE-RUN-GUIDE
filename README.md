@@ -159,23 +159,9 @@ aztec start --node --archiver --sequencer \
 ```
 
 
-* Replace `Eth_Sepolia_RPC` with your actual one!         -follow above steps
+## Use this Template for saving data:
 
-* Replace `Eth-beacon_sepolia_RPC` with your actual one            -follow above steps
-
-
-* Replace `0xYourPrivateKey` with your actual EVM wallet pvt key    🔺 (dont forget to add 0x at starting)
-
-* Replace `YourAddress` with your actual evm wallet address
-
-* Replace `Your_ip` with your `External IP`  ... 
-
-     -U can get External IP by running  `curl ifconfig.me`
-
-
-
-
-# 📌 Use this Template for saving data:
+...
 
  ------ Save These Info/Data ------
 
@@ -196,6 +182,8 @@ Aztec Sequencer Node ( XXXXX dc)
 • Base64 encoded string : 
 
 ------ Save These Info/Data ------
+
+...
 
 
 # Detached and Attached From the Screen
