@@ -143,16 +143,19 @@ sudo ufw allow 8080
 screen -S aztec
 ```
 
-  📌--- Execute below given command to Start Your node & Dont forget to make changes in it-
+ ## Execute below given command to Start Your node & Dont forget to make changes in it-
 
 ```
+
 aztec start --node --archiver --sequencer \
   --network alpha-testnet \
-  --l1-rpc-urls Eth_Sepolia_RPC \
-  --l1-consensus-host-urls Eth-beacon_sepolia_RPC \
-  --sequencer.validatorPrivateKey 0xYourPrivateKey \
-  --sequencer.coinbase YourAddress \
-  --p2p.p2pIp Your_ip
+  --l1-rpc-urls SepRPC_URL  \
+  --l1-consensus-host-urls BEACON_URL \
+  --sequencer.validatorPrivateKey YourPrivateKey \
+  --sequencer.coinbase YourMMAddress \
+  --p2p.p2pIp YourIP
+  --p2p.maxTxPoolSize 1000000000
+
 ```
 
 
