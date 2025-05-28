@@ -1,4 +1,4 @@
-# AZTECH-SEQUENCER-NODE-RUN-GUIDE 😱
+# AZTECH-SEQUENCER-NODE-RUN-GUIDE 
 
 <div align="center">
 
@@ -162,7 +162,7 @@ https://www.alchemy.com
 
 <div  align="center">
    
-#  Start Your Sequencer 🍥
+#  Start Your Sequencer 
 
 </div>
 
