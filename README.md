@@ -154,7 +154,6 @@ aztec start --node --archiver --sequencer \
   --sequencer.validatorPrivateKey YourPrivateKey \
   --sequencer.coinbase YourMMAddress \
   --p2p.p2pIp YourIP
-  --p2p.maxTxPoolSize 1000000000
 
 ```
 
