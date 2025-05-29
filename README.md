@@ -192,14 +192,12 @@ http://localhost:8080 | jq -r ".result"
 
 ## join dc- https://discord.gg/aztec 
 
-## Find Peer ID :
 
-...bash
+### 🔍 Find Peer ID :
 
-rahul gandhi 
-
-...
-
+```bash
+sudo docker logs $(docker ps -q --filter ancestor=aztecprotocol/aztec:alpha-testnet | head -n 1) 2>&1 | grep -i "peerId" | grep -o '"peerId":"[^"]*"' | cut -d'"' -f4 | head -n 1
+```
    
 # Register as a Validator 
 
