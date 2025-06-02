@@ -198,17 +198,11 @@ http://localhost:8080 | jq -r ".result"
 ```bash
 sudo docker logs $(docker ps -q --filter ancestor=aztecprotocol/aztec:alpha-testnet | head -n 1) 2>&1 | grep -i "peerId" | grep -o '"peerId":"[^"]*"' | cut -d'"' -f4 | head -n 1
 ```
-   
-# Register as a Validator 
 
-```
-aztec add-l1-validator \
-  --l1-rpc-urls Eth_Sepolia_Rpc \
-  --private-key your-private-key \
-  --attester your-validator-address \
-  --proposer-eoa your-validator-address \
-  --staking-asset-handler 0xF739D03e98e23A7B65940848aBA8921fF3bAc4b2 \
-  --l1-chain-id 11155111
+## Monitor Logs in Real-Time
+
+```bash
+sudo docker logs -f --tail 100 $(docker ps -q --filter ancestor=aztecprotocol/aztec:latest | head -n 1)
 ```
 
 ## Join TG for more Updates: https://t.me/ntekearning2
