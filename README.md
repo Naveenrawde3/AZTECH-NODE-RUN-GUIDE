@@ -199,6 +199,30 @@ http://localhost:8080 | jq -r ".result"
 sudo docker logs $(docker ps -q --filter ancestor=aztecprotocol/aztec:alpha-testnet | head -n 1) 2>&1 | grep -i "peerId" | grep -o '"peerId":"[^"]*"' | cut -d'"' -f4 | head -n 1
 ```
 
+#### 3. Run `aztec-up' (New Version)
+
+```bash
+aztec-up -v 0.87.6
+```
+
+### Find Screen ID
+
+```bash
+screen -ls
+```
+
+## Inter Screen :
+
+```bash
+screen -r
+```
+
+## Aztec Screen
+
+```bash
+screen -r aztec
+```
+
 ## Monitor Logs in Real-Time
 
 ```bash
